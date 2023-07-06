@@ -10,8 +10,4 @@ export class AppController {
     return this.appService.getallusers();
   }
 
-  @Get("oneUser")
-  getOneUser() {
-    return this.appService.getOneUser();
-  }
 }
